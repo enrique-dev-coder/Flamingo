@@ -1,0 +1,45 @@
+.navbar-brand img {
+  height: 90px;
+}
+
+.navbar {
+  background-color: #fcdff3;
+  padding: 0;
+}
+
+.carouselbackground {
+  height: 700px;
+  background-image: url(./images/backgroundMain.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carouselbackground2 {
+  height: 700px;
+  background-image: url(./images/backgroundMain2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.carousel-indicators .active {
+  background-color: #ff1a75;
+  height: 7px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff1a75' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  height: 40px;
+  /* esto es para cambiar el color de los controles del carousel porque es un SVG le cambias el %23ff1a75*/
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff1a75' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  height: 20px;
+}
+
+/*# sourceMappingURL=output.css.map */
